@@ -4,11 +4,11 @@ pkgname=python-cxxfilt-git
 pkgdesc="Demangling C++ symbols in Python"
 url="https://github.com/afq984/python-cxxfilt"
 pkgver=r15.7fccd25
-pkgrel=2
+pkgrel=3
 arch=('any')
 depends=('python')
-makedepends=('git' 'python-build' 'python-installer' 'python-wheel'
-             'python-six')
+makedepends=('git' 'python-setuptools' 'python-build' 'python-installer'
+             'python-wheel' 'python-six')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
 license=('BSD')
